@@ -1,0 +1,273 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:background="@color/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+android:animateLayoutChanges="true"
+        android:background="@color/background"
+        android:touchscreenBlocksFocus="false"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="0dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/cardslayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+
+            >
+
+            <ToggleButton
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:drawableLeft="@drawable/launcher_appicon"
+                android:theme="@style/SlouchieTheme.TheButton"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textOn="@string/toggletexton"
+                android:textOff="@string/toggletextoff"
+                android:id="@+id/servicetogglebutton"
+                android:textAllCaps="false"
+                android:textSize="25dp"
+                android:layout_above="@+id/button2"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:allowUndo="false"
+
+                />
+
+
+            <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+               >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/whatisslouchietitle"
+                    android:id="@+id/textView"
+                    android:typeface="normal" />
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:tag="hideable"
+  >
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/stepa"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="16dp"
+        android:maxHeight="20dp"
+        android:layout_weight="1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/slouchiedescriptionstep1"
+        android:typeface="normal"
+        android:layout_gravity="left|right"
+        android:layout_weight="3" />
+</TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/stepb"
+            android:scaleType="fitCenter"
+            android:maxHeight="20dp"
+            android:layout_weight="1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/slouchiedescriptionstep2"
+            android:typeface="normal"
+            android:layout_gravity="left|right"
+            android:layout_weight="3" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_marginBottom="16dp"
+            android:layout_height="100dp"
+            android:src="@drawable/stepc"
+            android:scaleType="fitCenter"
+            android:maxHeight="20dp"
+            android:layout_weight="1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/slouchiedescriptionstep3"
+            android:typeface="normal"
+            android:layout_gravity="left|right"
+            android:layout_weight="3" />
+    </TableRow>
+</TableLayout>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                >
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/settingstitle"
+                        android:id="@+id/textView2" />
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:tag="hideable"
+    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/slouchiesettingsdescription"
+                        android:id="@+id/textView3" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp">
+    <SeekBar
+        android:layout_width="match_parent"
+        android:max="30"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:indeterminate="false"
+        android:id="@+id/seekbar"
+        android:layout_marginLeft="16dp"
+
+        android:layout_alignTop="@+id/seektext"
+        android:layout_alignBottom="@+id/seektext"
+        android:layout_toLeftOf="@+id/seektext"
+        android:layout_toStartOf="@+id/seektext" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:text="15°"
+        android:id="@+id/seektext"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="16dp" />
+
+</RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/slouchiestrongvibration"
+         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/vibrationswitchlayout"
+        android:orientation="horizontal"
+        android:paddingLeft="32dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp">
+        <android.support.v7.widget.SwitchCompat
+            android:layout_width="wrap_content"
+
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/vibrationswitch"
+            android:layout_gravity="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:paddingLeft="5dp"
+            android:text="@string/switchstrongvibration"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

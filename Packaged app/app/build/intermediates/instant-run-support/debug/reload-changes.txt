@@ -1,0 +1,4 @@
+D:\slouchie\slouch\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\slouchieteam\slouchie\PostureService$override.class
+D:\slouchie\slouch\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\slouchieteam\slouchie\PostureService$3$override.class
+D:\slouchie\slouch\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\slouchieteam\slouchie\R$string$override.class
+D:\slouchie\slouch\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

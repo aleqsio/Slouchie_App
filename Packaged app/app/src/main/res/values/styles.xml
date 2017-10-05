@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="SlouchieTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/shadowblue</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/darkblue</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+<item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="colorButtonNormal">@color/button_color</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="SlouchieTheme.TheButton" parent="SlouchieTheme">
+        <item name="colorButtonNormal">@color/white</item>
+    </style>
+
+</resources>

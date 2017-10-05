@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">slouchie</string>
+    <string name="action_settings">Settings</string>
+    <string name="slouchierunning">Slouchie is running</string>
+    <string name="toptext">slouchie is the easiest way to maintain correct posture.</string>
+<string name="tutorialtext">slouchie is the easiest way to maintain correct posture.</string>
+    <string name="toggletextoff">start slouchie</string>
+    <string name="pause">Pause</string>
+    <string name="paused">Paused</string>
+    <string name="reset">Reset</string>
+    <string name="exit">Exit</string>
+    <string name="situpright">Sit upright, slouchie will start in </string>
+    <string name="seconds"> seconds</string>
+    <string name="slouchiestarting">Slouchie is starting</string>
+    <string name="toggletexton">stop slouchie</string>
+    <string name="whatisslouchietitle">How to use slouchie?</string>
+    <string name="slouchiedescriptionstep1">First, enable slouchie on your phone by pressing the button above.\n</string>
+    <string name="slouchiedescriptionstep2">Then, put your phone in your pocket. \nMake sure it tilts when you slouch.</string>
+    <string name="slouchiedescriptionstep3">Sit upright. Your phone will vibrate if you need to correct your posture. \nIt\'s that simple!</string>
+    <string name="settingstitle">Customize slouchie</string>
+    <string name="slouchiesettingsdescription">If you feel slouchie is working incorrectly try setting the alert angle. \nIt tells slouchie how soon it should react when you change your posture.</string>
+    <string name="slouchiepaused">Slouchie is paused</string>
+    <string name="slouchiestrongvibration">If you have trouble feeling initial slouchie vibration signals, try turning longer vibration on.</string>
+    <string name="switchstrongvibration">Use longer vibration</string>
+</resources>

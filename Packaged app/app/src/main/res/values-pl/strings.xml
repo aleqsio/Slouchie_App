@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Ustawienia</string>
+    <string name="exit">Wyjście</string>
+    <string name="pause">Stop</string>
+    <string name="paused">Start</string>
+    <string name="reset">Reset</string>
+    <string name="seconds">sekundy</string>
+    <string name="settingstitle">Dostosuj slouchie</string>
+    <string name="situpright">Usiądź prosto, slouchie uruchomi się za</string>
+    <string name="slouchiedescriptionstep1">Uruchom slouchie za pomocą przycisku powyżej.</string>
+    <string name="slouchiedescriptionstep2">Wsadź telefon do kieszeni. \nUpewnij się że przechyla się on gdy zaczynasz się garbić.</string>
+    <string name="slouchiedescriptionstep3">Usiądź prosto, twój telefon zawibruje jeżeli zaczniesz się garbić.</string>
+    <string name="slouchiepaused">Slouchie jest zastopowany</string>
+    <string name="slouchierunning">Slouchie jest uruchomiony</string>
+    <string name="slouchiesettingsdescription">Jeżeli slouchie nie wykrywa zmian twojej postawy spróbuj dostosować kąt odchylenia. Jeżeli go przekroczysz, slouchie zacznie wibrować.</string>
+    <string name="slouchiestarting">Slouchie uruchamia się</string>
+    <string name="slouchiestrongvibration">Jeżeli wibracje twojego telefonu są za słabe, spróbuj włączyć opcję dłuższych wibracji.</string>
+    <string name="switchstrongvibration">Dłuższe wibracje</string>
+    <string name="toggletextoff">uruchom slouchie</string>
+    <string name="toggletexton">zatrzymaj slouchie</string>
+    <string name="toptext">Slouchie to najprostrzy sposób na zachowanie prostej postawy.</string>
+    <string name="tutorialtext">Slouchie to najprostrzy sposób na zachowanie prostej postawy.</string>
+    <string name="whatisslouchietitle">Jak używać slouchie?</string>
+</resources>
